@@ -1,0 +1,223 @@
+export const productos = [
+    { 
+      id: 1, 
+      name: 'Superman', 
+      attackPoints: 95, 
+      defensePoints: 90, 
+      gameCost: 5, 
+      price: 15.99, 
+      category: 'Heroe',
+      description: 'Un poderoso Heroe de Krypton con habilidades sobrehumanas y una fuerte moral.' ,
+      image:      'https://funkospace.pe/cdn/shop/files/funko-pop-justice-league-superman-AAA-funkospace-1_1024x1024@2x.webp?v=1718987768'
+    },
+    { 
+      id: 2, 
+      name: 'Batman', 
+      attackPoints: 85, 
+      defensePoints: 80, 
+      gameCost: 4, 
+      price: 14.99, 
+      category: 'Heroe',
+      description: 'Un vigilante en Gotham City que utiliza su inteligencia, recursos y habilidades de combate.' ,
+      image:'https://funkospace.pe/cdn/shop/files/Funko_Pop_Batman_Bloody_1024x1024@2x.webp?v=1725210900'
+    },
+    { 
+      id: 3, 
+      name: 'Wonder Woman', 
+      attackPoints: 90, 
+      defensePoints: 85, 
+      gameCost: 5, 
+      price: 16.99, 
+      category: 'Heroe',
+      description: 'Una guerrera amazona con fuerza divina y un sentido de justicia inquebrantable.' ,
+      image:     'https://funkospace.pe/cdn/shop/files/The_Flash_Wonder_Woman_Funko_Pop_1024x1024@2x.jpg?v=1718063579'
+    },
+    { 
+      id: 4, 
+      name: 'Flash', 
+      attackPoints: 80, 
+      defensePoints: 70, 
+      gameCost: 3, 
+      price: 13.99, 
+      category: 'Heroe',
+      description: 'El hombre más rápido del mundo, capaz de moverse a velocidades sobrehumanas.' ,
+      image:     'https://wabro.vteximg.com.br/arquivos/ids/199359-1000-1000/65592a_TheFlash_HeroSuit_POP_GLAM-HiRes.png?v=638526981178370000'
+    },
+    { 
+      id: 5, 
+      name: 'Aquaman', 
+      attackPoints: 75, 
+      defensePoints: 80, 
+      gameCost: 4, 
+      price: 14.99, 
+      category: 'Heroe',
+      description: 'Rey de Atlantis con el poder de comunicarse con los animales marinos y fuerza sobrehumana.' ,
+      image:   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ2ccDTDaqb6pxYdWB9z1pg-3b0_tArsVwMBLeUCQBpdcvbFog8HjpiNBiC2y9zjjJcZM&usqp=CAU'  
+    },
+    { 
+      id: 6, 
+      name: 'Green Lantern', 
+      attackPoints: 88, 
+      defensePoints: 85, 
+      gameCost: 5, 
+      price: 15.49, 
+      category: 'Heroe',
+      description: 'Portador del anillo de poder que le permite crear constructos de energía y volar.' ,
+      image:     'https://wabro.vteximg.com.br/arquivos/ids/188379-1000-1000/1.jpg?v=638078341750830000'
+    },
+    { 
+      id: 7, 
+      name: 'Spider-Man', 
+      attackPoints: 85, 
+      defensePoints: 78, 
+      gameCost: 4, 
+      price: 15.99, 
+      category: 'Heroe',
+      description: 'Un joven con habilidades arácnidas, conocido por su agilidad y sentido arácnido.' ,
+      image:     'https://wabro.vteximg.com.br/arquivos/ids/199190-1000-1000/67610-POP-Marvel-SMNWH-S3--SM-Finale-suit-OOB.png?v=638526776203930000'
+    },
+    { 
+      id: 8, 
+      name: 'Iron Man', 
+      attackPoints: 90, 
+      defensePoints: 80, 
+      gameCost: 5, 
+      price: 17.49, 
+      category: 'Heroe',
+      description: 'Un genio multimillonario que utiliza su tecnología avanzada para luchar contra el crimen.' ,
+      image:     'https://juegoshidra.com/cdn/shop/files/img_360804_90e00aba19473f2187df90d00c23e443_1_540x.jpg?v=1721296363'
+    },
+    { 
+      id: 9, 
+      name: 'Hulk', 
+      attackPoints: 95, 
+      defensePoints: 88, 
+      gameCost: 6, 
+      price: 18.99, 
+      category: 'Heroe',
+      description: 'Un científico que se transforma en un monstruo fuerte y poderoso cuando se enoja.' ,
+      image:     'https://www.toycorner.ae/wp-content/uploads/2023/11/1-119-300x300.jpg'
+    },
+    { 
+      id: 10, 
+      name: 'Thor', 
+      attackPoints: 90, 
+      defensePoints: 85, 
+      gameCost: 5, 
+      price: 16.49, 
+      category: 'Heroe',
+      description: 'El dios del trueno, portador de su martillo Mjolnir, capaz de controlar el rayo.' ,
+      image:     'https://images.fravega.com/f300/ea2189bbb896539d8a0a5194ad9a5a92.jpg.webp'
+    },
+    { 
+      id: 11, 
+      name: 'Joker', 
+      attackPoints: 70, 
+      defensePoints: 60, 
+      gameCost: 3, 
+      price: 12.99, 
+      category: 'Villano',
+      description: 'El archienemigo de Batman, conocido por su locura y sentido del humor oscuro.' ,
+      image:     'https://funkospace.pe/cdn/shop/files/funko-pop-batman-1989-joker-funkospace-1_300x300.webp?v=1714150482'
+    },
+    { 
+      id: 12, 
+      name: 'Lex Luthor', 
+      attackPoints: 75, 
+      defensePoints: 70, 
+      gameCost: 4, 
+      price: 14.49, 
+      category: 'Villano',
+      description: 'Un poderoso empresario que busca deshacerse de Superman y controlar el mundo.' ,
+      image:     'https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwbc55062b/images/funko/upload/74312a_WB100_LexLuthor_POP_GLAM-WEB.png?sw=800&sh=800'
+    },
+    { 
+      id: 13, 
+      name: 'Green Goblin', 
+      attackPoints: 80, 
+      defensePoints: 65, 
+      gameCost: 4, 
+      price: 13.49, 
+      category: 'Villano',
+      description: 'El archienemigo de Spider-Man, conocido por su risa maníaca y su planeador.' ,
+      image:     'https://herostash.com.au/cdn/shop/products/SpideyNWH7_300x.png?v=1671685650'
+    },
+    { 
+      id: 14, 
+      name: 'Thanos', 
+      attackPoints: 95, 
+      defensePoints: 90, 
+      gameCost: 6, 
+      price: 19.99, 
+      category: 'Villano',
+      description: 'Un titán obsesionado con la destrucción de la mitad del universo para lograr el equilibrio.' ,
+      image:     'https://funkospace.pe/cdn/shop/files/funkospace-funko-pop-avengers-endgame-thanos-1_300x300.jpg?v=1691527000'
+    },
+    { 
+      id: 15, 
+      name: 'Venom', 
+      attackPoints: 85, 
+      defensePoints: 75, 
+      gameCost: 5, 
+      price: 15.99, 
+      category: 'Villano',
+      description: 'Un simbionte que otorga poderes a su huésped, conocido por su rivalidad con Spider-Man.' ,
+      image:     'https://cdn.kemik.gt/2023/10/3536-1200x1200-1.-500x500.jpg'
+    },
+    { 
+      id: 16, 
+      name: 'Catwoman', 
+      attackPoints: 75, 
+      defensePoints: 70, 
+      gameCost: 4, 
+      price: 13.99, 
+      category: 'Villano',
+      description: 'Una experta ladrona con habilidades acrobáticas y una relación complicada con Batman.' ,
+      image:     'https://www.katary.com.mx/wp-content/uploads/2023/03/funko-catwoman-batman-returns-katary-coleccionables-puebla-mexico-1.jpg'
+    },
+    { 
+      id: 17, 
+      name: 'Deadpool', 
+      attackPoints: 80, 
+      defensePoints: 75, 
+      gameCost: 5, 
+      price: 16.99, 
+      category: 'Anti-Heroe',
+      description: 'Un mercenario con habilidades de curación que se toma la vida de manera irreverente.' ,
+      image:     'https://www.figurine.bg/storage/products/27299/marvel-80th-pop-marvel-vinyl-figure-deadpool-first-appearance-9-cm-300xauto.jpg'
+    },
+    { 
+      id: 18, 
+      name: 'Raven', 
+      attackPoints: 70, 
+      defensePoints: 80, 
+      gameCost: 4, 
+      price: 14.99, 
+      category: 'Heroe',
+      description: 'Una hechicera con habilidades psíquicas y un oscuro legado demoníaco.' ,
+      image:     'https://funkospace.pe/cdn/shop/files/funko-pop-dc-titans-raven-funkospace-1_300x300.webp?v=1715191204'
+    },
+    { 
+      id: 19, 
+      name: 'Doctor Strange', 
+      attackPoints: 85, 
+      defensePoints: 75, 
+      gameCost: 5, 
+      price: 16.49, 
+      category: 'Heroe',
+      description: 'El hechicero supremo que protege la Tierra de amenazas místicas y dimensionales.' ,
+      image:     'https://http2.mlstatic.com/D_Q_NP_937433-MLU49254013321_032022-O.webp'
+    },
+    { 
+      id: 20, 
+      name: 'Loki', 
+      attackPoints: 75, 
+      defensePoints: 70, 
+      gameCost: 4, 
+      price: 14.99, 
+      category: 'Villano',
+      description: 'El dios de las travesuras, conocido por su astucia y habilidades de engaño.' ,
+      image:     'https://media.game.es/COVERV2/3D_L/186/186803.png'
+    },
+  ];
+  

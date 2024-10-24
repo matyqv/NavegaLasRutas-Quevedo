@@ -1,0 +1,154 @@
+.Img{
+    width: 400px;
+    height: 400px;
+    padding: 2%;
+    border: 6px solid grey;
+    border-radius: 5%;
+    background-color: white;
+    margin-left:5%;
+}
+.name{
+    font-size: 450%;
+    margin: 2%;
+    text-align: center;
+}
+.ClaseHeroe{
+    background-color: rgb(231, 182, 118);
+    width: 100%;
+    text-align: center;
+    text-justify: auto;
+    font-size: 200%;
+    font-weight: bold;
+    border: 1px solid grey;
+}.ClaseVillano{
+    background-color: rgb(198, 132, 252);
+    width: 100%;
+    text-align: center;
+    text-justify: auto;
+    font-size: 200%;
+    font-weight: bold;
+    border: 1px solid grey;
+}.ClaseAnti-Heroe{
+    background-color: rgb(223, 114, 130);
+    width: 100%;
+    text-align: center;
+    text-justify: auto;
+    font-size: 200%;
+    font-weight: bold;
+    border: 1px solid grey;
+}
+
+.directionRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.stats{
+    margin-left: 5%;
+    padding: 0%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.stats div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.stats div img{
+    height: 50%;
+}
+.stats div p{
+    font-size: 80px;
+    padding: 30px;
+    margin:0px;
+}
+
+.price{
+    font-size: 400%;
+    border: 1px solid black;
+    margin: 5%;
+    padding: 5%;
+    width: 250px;
+}
+.description{
+    font-size: 30px;
+    width: 500px;
+    margin: 50px;
+}
+.centrarContenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 425px) {
+    .Img{
+        width: 250px;
+        height: 250px;
+        padding: 2%;
+        border: 6px solid grey;
+        border-radius: 5%;
+        background-color: white;
+        margin:0% 10%;
+    }
+    .directionRow{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .name{
+        font-size: 250%;
+        margin: 2%;
+        text-align: center;
+    }
+    .clase{
+        background-color: rgb(231, 182, 118);
+        width: 100%;
+        text-align: center;
+        text-justify: auto;
+        font-size: 100%;
+        margin: 3%;
+        font-weight: bold;
+        border: 1px solid grey;    
+    }
+    
+.stats{
+    margin-left: 5%;
+    padding: 0%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.stats div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.stats div img{
+    height: 30%;
+}
+.stats div p{
+    font-size: 50px;
+    padding: 15px;
+    margin:0px;
+}
+
+
+.description{
+    font-size: 30px;
+    width: 100%;
+}
+  }
+  
+
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 50%;
+      padding: 30px;
+    }
+  }
